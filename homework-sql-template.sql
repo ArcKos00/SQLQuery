@@ -70,8 +70,6 @@ FROM HumanResources.Department dep
 
 INNER JOIN HumanResources.EmployeeDepartmentHistory history
 	ON dep.DepartmentID = history.DepartmentID
-INNER JOIN HumanResources.Department depart
-	ON dep.DepartmentID = depart.DepartmentID
 
 GO
 
